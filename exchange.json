@@ -1,10 +1,20 @@
 {
-  "main": "americanflightapi.raml",
-  "name": "AmericanFlightAPI",
-  "groupId": "811e1a77-19d8-45ec-a500-95432cc772e3",
-  "assetId": "americanflightapi",
-  "version": "1.0.0",
-  "classifier": "raml",
-  "tags": [],
-  "descriptorVersion": "1.0.0"
+  "main" : "americanflightapi.raml",
+  "name" : "AmericanFlightAPI",
+  "classifier" : "raml",
+  "tags" : [ ],
+  "groupId" : "811e1a77-19d8-45ec-a500-95432cc772e3",
+  "assetId" : "americanflightapi",
+  "version" : "1.0.0",
+  "apiVersion" : "",
+  "dependencies" : [ {
+    "groupId" : "68ef9520-24e9-4cf2-b2f5-620025690913",
+    "assetId" : "training-american-flights-example",
+    "version" : "1.0.1"
+  }, {
+    "groupId" : "68ef9520-24e9-4cf2-b2f5-620025690913",
+    "assetId" : "training-american-flight-data-type",
+    "version" : "1.0.1"
+  } ],
+  "descriptorVersion" : "1.0.0"
 }
